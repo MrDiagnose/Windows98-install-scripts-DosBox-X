@@ -1,6 +1,6 @@
 <#Author JohnDripper#>
 <#https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X#>
-<#Version: 1.0.1#>
+<#Version: 1.0.2#>
 
 <#set default output encoding of >>/> to utf8#>
 $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
@@ -10,11 +10,11 @@ $_folder_ = "win98_scripts" <#change folder name here#>
 
 <#Checks if win98_scripts folder exists or not#>
 if (Test-Path $_folder_) {
-    Write-Host "Folder Already Exists"
+    Write-Host "`nFolder Already Exists"
 }
 else {
     New-Item $_folder_ -ItemType Directory
-    Write-Host "Folder Created Successfully"
+    Write-Host "`nFolder Created Successfully"
 }
 
 $win98_conf = { [sdl]
@@ -58,8 +58,7 @@ $win98_conf = { [sdl]
 
     [autoexec] }
 
-
-$hdd_size = Read-Host -Prompt "Enter HDD in gigabytes eg 1 for 1gb ,2 for 2gb etc " 
+$hdd_size = Read-Host -Prompt "`nEnter HDD in gigabytes eg 1 for 1gb ,2 for 2gb etc " 
 $hdd = "hd_" + $hdd_size + "gig"
 
 
