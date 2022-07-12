@@ -2,8 +2,14 @@
 $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
 
 $_folder_ = "win98_scripts"
-mkdir $_folder_
-
+if (Test-Path $_folder_){
+    Write-Host "Folder Already Exists"
+}
+else
+{
+    New-Item $_folder_ -ItemType Directory
+    Write-Host "Folder Created Successfully"
+}
 $win98_conf={[sdl]
 autolock=true
 
