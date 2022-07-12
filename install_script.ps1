@@ -81,7 +81,7 @@ $run_command = { IMGMOUNT C win98.img
 Write-Output $win98_conf > "$_folder_\win98_run.conf"
 Write-Output $run_command >> "$_folder_\win98_run.conf"
 
-$run_script = { Start-Process .\dosbox-x.exe -conf }
+$run_script = { start .\dosbox-x.exe -conf }
 
 <#create executable batch file#>
 Write-Output "@echo off" > run_win98.bat
