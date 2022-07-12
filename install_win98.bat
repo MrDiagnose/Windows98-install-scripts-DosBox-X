@@ -1,1 +1,1 @@
-Powershell.exe .\install_script_v1.0.2.ps1
+Powershell.exe .\install_script.ps1
