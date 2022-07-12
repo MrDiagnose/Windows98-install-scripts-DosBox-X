@@ -1,1 +1,1 @@
-# DosBox-X-install-scripts
+# DosBox-X install scripts for windows
