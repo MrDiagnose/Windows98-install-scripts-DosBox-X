@@ -1,1 +1,4 @@
-# One click install/ run scripts(powershell win 7, 8, 8.1, 10, 11) for windows 98 on Dosbox-X
+# One click install/ run scripts for windows 98
+
+Install/ run windows 98 in a single click on Dosbox-x
+N.B these are powershell scripts so will only work on windows OS
