@@ -8,12 +8,12 @@ N.B: These are powershell scripts so will only work on windows OS
 
 1. Download [dosbox-x](https://github.com/joncampbell123/dosbox-x/releases) , I am using the [portable version](https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v0.84.1/dosbox-x-vsbuild-win64-20220701165137.zip) dosbox-x-vsbuild-win64 build :)
 2. After you download it extract/ install it in your desired location.
-3. Download my scripts [stable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.3/win98_dosBox-x_script_v1.0.3.zip)(stable) or [unstable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.3/win98_dosBox-x_script_v1.0.3.unstable.zip) * and extract it where dosbox-x.exe is located
+3. Download my scripts [stable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.3/win98_dosBox-x_script_v1.0.3.zip)(stable) or [unstable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.3/win98_dosBox-x_script_v1.0.3.unstable.zip) *** and extract it where dosbox-x.exe is located
 4. Copy your windows 98 iso to the same location and rename it to "win98.iso" all lowercase (windows 98 second edition is recommended)
 5. Double click "install_win98.bat" choose your desired hdd size and wait for it to install.
 6. After Installation is completed run your windows 98 installtion by double clicking "run_win98.bat".
 
-*unstable uses core=dynamic_x86 which is much master than core=normal but the dosbox-x crashes, if you use this then shut down dosbox-x manually if it crashes and run "run_win98.bat" to continue installation*
+***unstable uses core=dynamic_x86 which is much master than core=normal but the dosbox-x crashes, if you use this then shut down dosbox-x manually if it crashes and run "run_win98.bat" to continue installation*
 
 # SOME USEFUL DOSBOX-X SHORTCUTS & TIPS
 
