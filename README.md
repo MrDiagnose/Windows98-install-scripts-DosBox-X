@@ -17,3 +17,7 @@ N.B: These are powershell scripts so will only work on windows OS
 
 1. Press Ctrl+F10 to toggle mouse capture & F11 + F to toggle Fullscreen.
 2. From menu choose: View > Fit to aspect ratio to prohibit DosBox-x from stretching the window when in fullscreen mode
+
+# USEFUL LINKS
+1. [dosbox-x wiki](https://dosbox-x.com/wiki/)
+2. [Installing Microsoft Windows 98 in DOSBox-X](https://dosbox-x.com/wiki/Guide%3AInstalling-Windows-98)
