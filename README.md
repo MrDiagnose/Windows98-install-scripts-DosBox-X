@@ -13,7 +13,7 @@ N.B: These are powershell scripts so will only work on windows OS
 5. Double click "install_win98.bat" choose your desired hdd size and wait for it to install.
 6. After Installation is completed run your windows 98 installtion by double clicking "run_win98.bat".
 
-***unstable uses core=dynamic_x86 which is much master than core=normal but the dosbox-x crashes, if you use this then shut down dosbox-x manually if it crashes and run "run_win98.bat" to continue installation*
+***unstable uses core=dynamic_x86 which is much master than core=normal but the dosbox-x crashes, if you use this then shut down dosbox-x manually if it crashes and then run "run_win98.bat" to continue the installation*
 
 # SOME USEFUL DOSBOX-X SHORTCUTS & TIPS
 
