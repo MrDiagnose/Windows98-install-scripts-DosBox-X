@@ -38,7 +38,7 @@ $win98_conf = {
 
     [cpu]
     cputype=pentium_mmx
-    core=dynamic_x86
+    core=normal
 
     [sblaster]
     sbtype=sb16vibra
