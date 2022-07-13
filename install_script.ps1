@@ -1,6 +1,6 @@
 <#Author JohnDripper#>
 <#https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X#>
-<#Version: 1.0.3#>
+<#Version: 1.0.4#>
 
 <#set default output encoding of >>/> to utf8#>
 $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
@@ -17,12 +17,8 @@ else {
     Write-Host "`nFolder Created Successfully"
 }
 
-$win98_conf = { autolock=true
-    
+$win98_conf = { 
     [sdl]
-    fullscreen=true
-    fullresolution = desktop
-    output = opengl
     autolock=true
 
     [dosbox]
@@ -42,7 +38,7 @@ $win98_conf = { autolock=true
 
     [cpu]
     cputype=pentium_mmx
-    core=normal
+    core=dynamic_x86
 
     [sblaster]
     sbtype=sb16vibra
@@ -83,7 +79,13 @@ Write-Output $install_command >> "$_folder_\win98_install.conf"
 
 $run_command = { IMGMOUNT C win98.img
     IMGMOUNT D Win98.iso
-    BOOT C: }
+    BOOT C:
+	
+    [sdl]
+    fullscreen=true
+    fullresolution = desktop
+    output = opengl
+    autolock=true }
 
 <#create *.conf file named win98_run.conf#>
 Write-Output $win98_conf > "$_folder_\win98_run.conf"
