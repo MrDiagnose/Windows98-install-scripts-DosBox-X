@@ -17,12 +17,18 @@ else {
     Write-Host "`nFolder Created Successfully"
 }
 
-$win98_conf = { [sdl]
+$win98_conf = { autolock=true
+    
+    [sdl]
+    fullscreen=true
+    fullresolution = desktop
+    output = opengl
     autolock=true
 
     [dosbox]
     title=Windows 98
-    memsize=128
+    memsize=512
+    cycles=max
 
     [video]
     vmemsize=8
@@ -36,7 +42,7 @@ $win98_conf = { [sdl]
 
     [cpu]
     cputype=pentium_mmx
-    core=normal
+    core=dynamic_x86
 
     [sblaster]
     sbtype=sb16vibra
@@ -54,6 +60,8 @@ $win98_conf = { [sdl]
     cd-rom insertion delay=4000
 
     [render]
+    aspect=true
+    aspect_ratio=0:0
     scaler=none
 
     [autoexec] }
