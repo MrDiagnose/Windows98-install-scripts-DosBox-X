@@ -1,6 +1,6 @@
 <#Author JohnDripper#>
 <#https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X#>
-<#Version: 1.0.2#>
+<#Version: 1.0.3#>
 
 <#set default output encoding of >>/> to utf8#>
 $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
