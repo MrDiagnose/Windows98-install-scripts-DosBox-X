@@ -11,7 +11,7 @@ N.B: These are powershell scripts so will only work on windows OS
 3. Download my scripts [stable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.4/win98_dosBox-x_script_v1.0.4.zip)(stable) or [unstable](https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X/releases/download/v1.0.4/win98_dosBox-x_script_v1.0.4.unstable.zip)** and extract it where dosbox-x.exe is located
 4. Copy your windows 98 iso to the same location and rename it to "win98.iso" all lowercase (windows 98 second edition is recommended)
 5. Double click "install_win98.bat" choose your desired hdd size and wait for it to install.
-6. After Installation is completed run your windows 98 installtion by double clicking "run_win98.bat".
+6. After Installation is completed run your windows 98 installation by double clicking "run_win98.bat".
 
 ***unstable uses core=dynamic_x86 which is much faster than core=normal but the dosbox-x crashes, if you use this then shut down dosbox-x manually if it crashes and then run "run_win98.bat" to continue the installation*
 
