@@ -1,1 +1,1 @@
-Powershell.exe .\install_script.ps1
+powershell -ExecutionPolicy Bypass -File .\install_script.ps1

@@ -1,6 +1,6 @@
 <#Author JohnDripper#>
 <#https://github.com/MrDiagnose/Windows98-install-scripts-DosBox-X#>
-<#Version: 1.0.4#>
+<#Version: 1.0.5#>
 
 <#set default output encoding of >>/> to utf8#>
 $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
@@ -27,7 +27,7 @@ $win98_conf = {
     cycles=max
 
     [video]
-    vmemsize=8
+    vmemsize=4
     vesa modelist width limit=0
     vesa modelist height limit=0
 
